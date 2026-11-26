@@ -1,1 +1,22 @@
 {
+  "title": "B2B GEO & JSON-LD Schema Auditor Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "urls": {
+      "title": "Target Website URLs",
+      "type": "array",
+      "description": "List of company or product URLs to audit for Schema.org JSON-LD, AI search (GEO) readiness, and conversion signals.",
+      "editor": "stringList",
+      "prefill": ["https://example.com"]
+    },
+    "timeoutSecs": {
+      "title": "Request Timeout (seconds)",
+      "type": "integer",
+      "default": 15,
+      "minimum": 5,
+      "maximum": 60
+    }
+  },
+  "required": ["urls"]
+}
