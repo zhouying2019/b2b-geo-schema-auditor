@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "b2b-geo-schema-seo-auditor",
+  "title": "B2B Website AI-Readiness (GEO), JSON-LD Schema & Lead Signal Auditor",
+  "description": "Audits B2B, SaaS, and e-commerce URLs for JSON-LD structured data (Product, FAQPage, Organization), llms.txt / AI search crawler readiness, meta tags, and contact/RFQ conversion signals.",
+  "version": "1.0",
+  "dockerfile": "./Dockerfile",
+  "input": "./input_schema.json"
+}
